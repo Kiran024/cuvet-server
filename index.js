@@ -9,7 +9,8 @@ const port = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 // mongodb+srv://admin:<password>@cluster0.2rbjkel.mongodb.net/?retryWrites=true&w=majority
-const url = "mongodb+srv://admin:admin123@cluster0.2rbjkel.mongodb.net/?retryWrites=true&w=majority";
+// const url = "mongodb+srv://admin:admin123@cluster0.2rbjkel.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb://mongo:Cb6CD-Hfcb5BA13cA1H3BAC5g3CFAD3g@viaduct.proxy.rlwy.net:43453"
 const dbName = "reactecome";
 console.log("mm");
 
