@@ -8,8 +8,8 @@ const port = 5000;
 
 app.use(cors());
 app.use(bodyParser.json());
-
-const url = "mongodb+srv://admin:admin123@cluster0.2rbjkel.mongodb.net/?";
+// mongodb+srv://admin:<password>@cluster0.2rbjkel.mongodb.net/?retryWrites=true&w=majority
+const url = "mongodb+srv://admin:admin123@cluster0.2rbjkel.mongodb.net/?retryWrites=true&w=majority";
 const dbName = "reactecome";
 console.log("mm");
 
